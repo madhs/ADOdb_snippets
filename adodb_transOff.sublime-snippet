@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:conn}->transOff = 1;
+]]></content>
+	<tabTrigger>adodb_transOff</tabTrigger>
+	<scope>source.php</scope>
+	<description>Temporarily disable transaction startup [adodb_transOff]</description>
+</snippet>

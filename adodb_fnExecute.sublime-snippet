@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:conn}->fn${2:Execute} = '${3:$SELECTION}';
+]]></content>
+	<tabTrigger>adodb_fnExecute</tabTrigger>
+	<scope>source.php</scope>
+	<description>A function to override the execute() function [adodb_fnExecute]</description>
+</snippet>

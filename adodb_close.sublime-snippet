@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:conn}->close();
+$0
+]]></content>
+	<tabTrigger>adodb_close</tabTrigger>
+	<scope>source.php</scope>
+	<description>Close DB connection [adodb_close]</description>
+</snippet>

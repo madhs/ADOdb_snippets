@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$${1:rs} = \$${2:conn}->execute("${3:$SELECTION}"${4:, array($5)});
+${6:while (\$${7:r} = \$${1:rs}->fetchRow()) {
+	$0
+\}}
+]]></content>
+	<tabTrigger>adodb_execute</tabTrigger>
+	<scope>source.php</scope>
+	<description>Execute a SQL to get a recordset [adodb_execute]</description>
+</snippet>

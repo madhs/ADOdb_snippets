@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:conn}->updateClob(${2:tableName}, ${3:columnName}, \$${4:clob_value}, ${5:where_clause});
+$0
+]]></content>
+	<tabTrigger>adodb_updateClob</tabTrigger>
+	<scope>source.php</scope>
+	<description>Update the clob value in a table [adodb_updateClob]</description>
+</snippet>

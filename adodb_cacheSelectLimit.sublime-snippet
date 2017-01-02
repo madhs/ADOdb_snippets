@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$${1:rs} = \$${2:conn}->cachedSelectLimit(${3:600}, "${4:$SELECTION}", ${5:rowsToReturn}, ${6:startOffset}${7:, array($8)});
+while (\$${9:r} = \$${1:rs}->fetchRow()) {
+	$0
+}
+]]></content>
+	<tabTrigger>adodb_cacheSelectLimit</tabTrigger>
+	<scope>source.php</scope>
+	<description>Get a cached chunk of a recordset [adodb_cacheSelectLimit]</description>
+</snippet>

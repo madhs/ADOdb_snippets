@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${2:\$${1:conn}->startTrans();
+}\$${1:conn}->rowLock('${4:table}', "${5:where_clause}");
+$0
+${3:\$${1:conn}->completeTrans();}
+]]></content>
+	<tabTrigger>adodb_rowLock</tabTrigger>
+	<scope>source.php</scope>
+	<description>Creates a row lock for the duration of the transaction [adodb_rowLock]</description>
+</snippet>

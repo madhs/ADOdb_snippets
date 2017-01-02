@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:blob_decoded} = \$${2:conn}->blobDecode(\$${3:blob});
+$0
+]]></content>
+	<tabTrigger>adodb_blobDecode</tabTrigger>
+	<scope>source.php</scope>
+	<description>Decode a DB blob field [adodb_blobDecode]</description>
+</snippet>

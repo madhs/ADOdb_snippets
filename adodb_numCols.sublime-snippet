@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:rs}->numCols;
+$0
+]]></content>
+	<tabTrigger>adodb_numCols</tabTrigger>
+	<scope>source.php</scope>
+	<description>Returns the number of cols in a recordset [adodb_numCols]</description>
+</snippet>

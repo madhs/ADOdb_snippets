@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:last_page_no} = \$${2:conn}->lastPageNo();
+$0
+]]></content>
+	<tabTrigger>adodb_lastPageNo</tabTrigger>
+	<scope>source.php</scope>
+	<description>Returns last page no. of the recordset [adodb_lastPageNo]</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:r} = \$${2:rs}->fetchObj();
+$0
+]]></content>
+	<tabTrigger>adodb_fetchObj</tabTrigger>
+	<scope>source.php</scope>
+	<description>Return current row as ADOFetchObj [adodb_fetchObj]</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:err_c} = \$${2:conn}->MetaError('${3:errorCode}');
+\$${4:err_msg} = \$${2:conn}->metaErrorMessage(\$${1:err_c});
+$0
+]]></content>
+	<tabTrigger>adodb_metaErrorMessage</tabTrigger>
+	<scope>source.php</scope>
+	<description>Converts an error number to a specific message [adodb_metaErrorMessage]</description>
+</snippet>

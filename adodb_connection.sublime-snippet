@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:db} = adoNewConnection('${2:driver}');
+${3:\$${1:db}->connect('${4:hostName}', '${5:userId}', '${6:password}', '${7:database}'${8:, ${9:/*forceNewConnection*/ false}});}
+$0
+]]></content>
+	<tabTrigger>adodb_connection</tabTrigger>
+	<scope>source.php</scope>
+	<description>Create a new connection object [adodb_connection]</description>
+</snippet>

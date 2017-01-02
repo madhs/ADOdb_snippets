@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:sql} = \$${2:conn}->getUpdateSql(\$${3:recordSet}, \$${4:fieldArr}${6:, \$forceUpdate = ${7:FALSE}${8:, \$dontFixQuote = ${9:FALSE}${10:, \$forceType = ${11:NULL}}}});
+$0
+]]></content>
+	<tabTrigger>adodb_getUpdateSql</tabTrigger>
+	<scope>source.php</scope>
+	<description>Get update sql based on an associative array [adodb_getUpdateSql]</description>
+</snippet>

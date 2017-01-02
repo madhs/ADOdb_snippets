@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:ok} = \$${2:conn}->cacheFlush("${3:$SELECTION}"${4:, array($5)});
+$0
+]]></content>
+	<tabTrigger>adodb_cacheFlush</tabTrigger>
+	<scope>source.php</scope>
+	<description>Destroy cached recordset of an SQL [adodb_cacheFlush]</description>
+</snippet>

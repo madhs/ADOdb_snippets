@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:conn}->setFetchMode(ADODB_FETCH_${2:[NUM|ASSOC|BOTH|DEFAULT]});
+$0
+]]></content>
+	<tabTrigger>adodb_setFetchMode</tabTrigger>
+	<scope>source.php</scope>
+	<description>Set fetch mode [adodb_setFetchMode]</description>
+</snippet>

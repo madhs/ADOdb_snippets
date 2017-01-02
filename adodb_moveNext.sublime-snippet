@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:rs}->moveNext;
+$0
+]]></content>
+	<tabTrigger>adodb_moveNext</tabTrigger>
+	<scope>source.php</scope>
+	<description>Move cursor to the next record in recordset [adodb_moveNext]</description>
+</snippet>

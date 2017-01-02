@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:first_page} = \$${2:rs}->atFirstPage(${3:\$gotoFirstPage = TRUE});
+$0
+]]></content>
+	<tabTrigger>adodb_atFirstPage</tabTrigger>
+	<scope>source.php</scope>
+	<description>Returns true if pageExecute is in the first page [adodb_atFirstPage]</description>
+</snippet>

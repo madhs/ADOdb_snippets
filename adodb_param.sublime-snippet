@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:conn}->param(${2:param_name});
+$0
+]]></content>
+	<tabTrigger>adodb_param</tabTrigger>
+	<scope>source.php</scope>
+	<description>Returns a database-specific placeholder for a prepared query [adodb_param]</description>
+</snippet>

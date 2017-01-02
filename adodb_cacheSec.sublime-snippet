@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:conn}->cacheSec = ${2:600};
+]]></content>
+	<tabTrigger>adodb_cacheSec</tabTrigger>
+	<scope>source.php</scope>
+	<description>Default val in secs that cached queries are saved [adodb_cacheSec]</description>
+</snippet>
