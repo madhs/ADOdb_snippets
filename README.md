@@ -1,5 +1,5 @@
 # ADOdb_snippets
-Sublime text 3 snippets for ADOdb library in PHP.
+Sublime text 3 snippets for [ADOdb library](https://github.com/ADOdb/ADOdb) in PHP.
 
 ## Reference
 Snippet syntax referenced from the following [ADOdb documentation](http://adodb.org/dokuwiki/doku.php?id=v5:reference:reference_index "ADOdb - Database Abstraction Layer for PHP [ADOdb]")
