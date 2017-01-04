@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-\$${1:conn}->cacheSec = ${2:600};
+\$${1:DB}->cacheSec = ${2:600};
+$0
 ]]></content>
 	<tabTrigger>adodb_cacheSec</tabTrigger>
 	<scope>source.php</scope>

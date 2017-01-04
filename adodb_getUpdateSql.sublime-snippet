@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:sql} = \$${2:conn}->getUpdateSql(\$${3:recordSet}, \$${4:fieldArr}${6:, \$forceUpdate = ${7:FALSE}${8:, \$dontFixQuote = ${9:FALSE}${10:, \$forceType = ${11:NULL}}}});
+\$${1:sql} = \$${2:DB}->getUpdateSql(\$${3:rs}, \$${4:fieldArr}${6:, \$forceUpdate = ${7:FALSE}${8:, \$dontFixQuote = ${9:FALSE}${10:, \$forceType = ${11:NULL}}}});
 $0
 ]]></content>
 	<tabTrigger>adodb_getUpdateSql</tabTrigger>

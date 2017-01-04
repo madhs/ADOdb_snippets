@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:r} = \$${2:rs}->fetchObj();
+\$${1:r_obj} = \$${2:rs}->fetchObj();
 $0
 ]]></content>
 	<tabTrigger>adodb_fetchObj</tabTrigger>

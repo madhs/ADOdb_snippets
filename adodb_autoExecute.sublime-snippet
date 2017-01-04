@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 \$${1:table}				= '$2';
-\$${3:record}["col_name"]	= 'col_value';
+\$${3:cols}["col_name"]	= 'col_value';
  
-${4:conn}->AutoExecute(\$${1:table}, \$${3:record}, '${5:UPDATE}'${6:, \$${7:where} = "$8"});
+\$${4:DB}->AutoExecute(\$${1:table}, \$${3:cols}, '${5:UPDATE}'${6:, \$${7:where}${8: = "$9"}});
 $0
 ]]></content>
 	<tabTrigger>adodb_autoExecute</tabTrigger>

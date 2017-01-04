@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 while (!\$${1:rs}->EOF) {
-    \$${2:obj} = \$${1:rs}->fetchNextObj();
-    $0
+	\$${2:obj} = \$${1:rs}->fetchNextObj();
+	$0
 }
 ]]></content>
 	<tabTrigger>adodb_fetchNextObj</tabTrigger>

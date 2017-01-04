@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:first_page} = \$${2:rs}->atFirstPage(${3:\$gotoFirstPage = TRUE});
+\$${1:first_page} = \$${2:rs}->atFirstPage(${3:\$gotoFirstPage = ${4:TRUE}});
 $0
 ]]></content>
 	<tabTrigger>adodb_atFirstPage</tabTrigger>

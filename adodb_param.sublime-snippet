@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:conn}->param(${2:param_name});
+\$${1:DB}->param(${2:param_name});
 $0
 ]]></content>
 	<tabTrigger>adodb_param</tabTrigger>

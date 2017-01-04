@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-if (!\$${1:conn}->isConnected()) {
+if (!\$${1:DB}->isConnected()) {
 	$0
 }
 ]]></content>

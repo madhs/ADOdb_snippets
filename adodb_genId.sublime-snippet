@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:number} = \$${2:conn}->genId(${3:'${4:sequenceName}'${5:, '${6:startPoint}'}});
+\$${1:number} = \$${2:DB}->genId(${3:'${4:sequenceName}'${5:, '${6:startPoint}'}});
 $0
 ]]></content>
 	<tabTrigger>adodb_genId</tabTrigger>

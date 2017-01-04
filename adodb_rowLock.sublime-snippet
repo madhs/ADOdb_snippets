@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
-${2:\$${1:conn}->startTrans();
-}\$${1:conn}->rowLock('${4:table}', "${5:where_clause}");
+${2:\$${1:DB}->startTrans();
+}\$${1:DB}->rowLock('${4:table}', "${5:where_clause}");
 $0
-${3:\$${1:conn}->completeTrans();}
+
+${3:\$${1:DB}->completeTrans();}
 ]]></content>
 	<tabTrigger>adodb_rowLock</tabTrigger>
 	<scope>source.php</scope>

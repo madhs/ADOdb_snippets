@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-\$${1:rs} = \$${2:conn}->cachePageExecute(${3:secs2Cache}, "${4:$SELECTION}", ${5:rowsPerPage}, ${6:pageNumber}${7:, array($8)});
-\$${8:result} = \$${1:rs}->getAll();
+\$${1:rs} = \$${2:DB}->cachePageExecute(${3:secs2Cache}, "${4:$SELECTION}", ${5:rowsPerPage}, ${6:pageNumber}${7:, array($8)});
+\$${9:res} = \$${1:rs}->getAll();
 $0
 ]]></content>
 	<tabTrigger>adodb_cachePageExecute</tabTrigger>

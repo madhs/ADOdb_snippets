@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:rs} = \$${2:conn}->nextRecordset();
+\$${1:rs} = \$${2:DB}->nextRecordset();
 $0
 ]]></content>
 	<tabTrigger>adodb_nextRecordSet</tabTrigger>

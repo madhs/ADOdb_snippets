@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:last_page_no} = \$${2:conn}->lastPageNo();
+\$${1:last_page_no} = \$${2:DB}->lastPageNo();
 $0
 ]]></content>
 	<tabTrigger>adodb_lastPageNo</tabTrigger>

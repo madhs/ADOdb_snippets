@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:err_msg} = \$${2:conn}->errorMsg();
+\$${1:err_msg} = \$${2:DB}->errorMsg();
 $0
 ]]></content>
 	<tabTrigger>adodb_errorMsg</tabTrigger>

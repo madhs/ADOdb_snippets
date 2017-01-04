@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-\$${1:conn}->fn${2:Execute} = '${3:$SELECTION}';
+\$${1:DB}->fn${2:Cache}Execute = '${3:overrideExecute}'; // ${4:function ${3:overrideExecute}(\$db, \$sql, \$var) {\}}
+$0
 ]]></content>
 	<tabTrigger>adodb_fnExecute</tabTrigger>
 	<scope>source.php</scope>

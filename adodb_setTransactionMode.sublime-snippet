@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:conn}->setTransactionMode('${2:[SERIALIZABLE|READ UNCOMMITTED|READ COMMITTED|REPEATABLE READ]}');
+\$${1:DB}->setTransactionMode('${2:[SERIALIZABLE|READ UNCOMMITTED|READ COMMITTED|REPEATABLE READ]}');
 $0
 ]]></content>
 	<tabTrigger>adodb_setTransactionMode</tabTrigger>

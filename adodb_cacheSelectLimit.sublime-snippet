@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:rs} = \$${2:conn}->cachedSelectLimit(${3:600}, "${4:$SELECTION}", ${5:rowsToReturn}, ${6:startOffset}${7:, array($8)});
+\$${1:rs} = \$${2:DB}->cachedSelectLimit(${3:600}, "${4:$SELECTION}", ${5:rowsToReturn}, ${6:startOffset}${7:, array($8)});
 while (\$${9:r} = \$${1:rs}->fetchRow()) {
 	$0
 }

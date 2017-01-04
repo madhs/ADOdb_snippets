@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:conn}->updateClob(${2:tableName}, ${3:columnName}, \$${4:clob_value}, ${5:where_clause});
+\$${1:DB}->updateClob(${2:tableName}, ${3:columnName}, \$${4:clob_value}, ${5:where_clause});
 $0
 ]]></content>
 	<tabTrigger>adodb_updateClob</tabTrigger>

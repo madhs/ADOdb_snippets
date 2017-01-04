@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:ok} = \$${2:conn}->cache${3:Get${4:One}}(${5:600}, "${6:$SELECTION}"${7:, array($8)});
+\$${1:res} = \$${2:DB}->cache${3:Get${4:One}}(${5:600}, "${6:$SELECTION}"${7:, array($8)});
 $0
 ]]></content>
 	<tabTrigger>adodb_cacheGet</tabTrigger>

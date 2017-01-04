@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:conn}->inParameter(\$${2:stmt}, ${3:var_value}, ${4:var_name}${5:, \$maxLength = ${6:255}${7:, \$type = ${8:FALSE}}});
+\$${1:DB}->inParameter(\$${2:stmt}, ${3:var_value}, ${4:var_name}${5:, \$maxLength = ${6:255}${7:, \$type = ${8:FALSE}}});
 $0
 ]]></content>
 	<tabTrigger>adodb_inParameter</tabTrigger>

@@ -2,7 +2,7 @@
 	<content><![CDATA[
 ${1:// \$ADODB_COUNTRECS must be TRUE;
 // Reminder: po_recordCount may have a substantial overhead with large recordsets
-}\$${2:count} = \$${3:conn}->${4:po_}recordCount();
+}\$${2:count} = \$${3:DB}->${4:po_}recordCount();
 $0
 ]]></content>
 	<tabTrigger>adodb_recordCount</tabTrigger>
