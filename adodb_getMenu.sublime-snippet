@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-\$${1:html_menu} = \$${2:rs}->getMenu${3}('${4:selectName}', '${5:defaultValue}'${6:, \$blankFirstItem=${7:TRUE}${8:, \$multiple = ${9:FALSE}${10:, '${11:numberOfRows}'${12:, '${13:optionalAttributes}'${14:, \$compareAgainstFirstCol = ${15:TRUE}}}}}});
+\$${1:rs} = \$${2:DB}->execute("${3:$SELECTION}"${4:, array($5)});
+\$${6:html_menu} = \$${1:rs}->getMenu${7}('${8:selectName}', '${9:defaultValue}'${10:, \$blankFirstItem=${11:TRUE}${12:, \$multiple = ${13:FALSE}${14:, '${15:numberOfRows}'${16:, '${17:optionalAttributes}'${18:, \$compareAgainstFirstCol = ${19:TRUE}}}}}});
 $0
 ]]></content>
 	<tabTrigger>adodb_getMenu</tabTrigger>

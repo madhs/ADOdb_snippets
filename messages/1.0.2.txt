@@ -1,0 +1,45 @@
+ADOdb_snippets Release Notes v1.0.2
+------------------------------------
+
+* ADOdb_startTrans snippet includes an optional Execute, failTrans, and completeTrans useage.
+* adodb_getMenu has execute statement to fetch the record set.
+
+------------------------------------
+
+Thank you for downloading this snippet package. I've added this note to those who newly install the snippet.
+
+If you weren't aware of this, you can leverage on the selection feature which Sublime Editor provides for snippets.
+
+
+**Selection Feature**
+Some snippets allow you to embed selected text into the snippet.
+
+* adodb_beginTrans
+* adodb_cachedSelectLimit
+* adodb_cacheFlush
+* adodb_cacheGet
+* adodb_cachePageExecute
+* adodb_execute
+* adodb_get
+* adodb_getMenu
+* adodb_pageExecute
+* adodb_prepare
+* adodb_selectLimit
+* adodb_startTrans
+* adodb_sql
+
+**Snippet selection usage**
+
+Step 1: In you PHP file, select and highlight the text you would like to be in a snippet. For example, `select * from employees`
+Step 2: Press the sublime shortcut `Ctrl + Shift + P` to bring up the Command Palette
+Step 3: Type `adodb_get` and choose the [adodb_get] snippet
+Step 4: You will see that the SQL is inside the GetOne() method. You can press `Tab` to go through the fields in the snippet.
+
+**Variations**
+Some ADOdb database object methods which have similar names are under one common snippet. The list below describes the variations that a snippet could have
+```
+adodb_cacheGet	=> cacheGetOne, cacheGetRow, cacheGetCol, cacheGetAll
+adodb_fnExecute	=> fnExecute, fnCacheExecute
+adodb_get		=> getOne, getRow, getAll, execute
+adodb_getMenu	=> getMenu, getMenu2
+```

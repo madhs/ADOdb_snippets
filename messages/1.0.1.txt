@@ -1,0 +1,5 @@
+ADOdb_snippets Release Notes v1.0.1
+------------------------------------
+
+* The default database object changed from $conn to $DB
+* Some snippet keywords were changed to match the ADOdb function to improve the experience

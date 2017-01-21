@@ -1,6 +1,13 @@
 <snippet>
 	<content><![CDATA[
 \$${1:DB}->startTrans();
+${2:\$${3:ok} = \$${1:DB}->execute("${4:$SELECTION}"${5:, array($6)});
+if (!\$${3:ok}) {
+	\$${1:DB}->failTrans();
+\}
+else {
+	\$${1:DB}->completeTrans();
+\}}
 $0
 ]]></content>
 	<tabTrigger>adodb_startTrans</tabTrigger>
