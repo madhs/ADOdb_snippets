@@ -25,7 +25,7 @@ Some snippets allow you to embed selected text into the snippet.
 
 **Snippet selection usage**
 
-Step 1: In you PHP file, select and highlight the text you would like to be in a snippet. For example, `select * from employees`
+Step 1: In your PHP file, select and highlight the text you would like to be in a snippet. For example, `select * from employees`
 Step 2: Press the sublime shortcut `Ctrl + Shift + P` to bring up the Command Palette
 Step 3: Type `adodb_get` and choose the [adodb_get] snippet
 Step 4: You will see that the SQL is inside the GetOne() method. You can press `Tab` to go through the fields in the snippet.
@@ -38,3 +38,5 @@ adodb_fnExecute	=> fnExecute, fnCacheExecute
 adodb_get		=> getOne, getRow, getAll, execute
 adodb_getMenu	=> getMenu, getMenu2
 ```
+
+Shoutout to Hosein, Yi Fan, Afiq, "Intern" Afiq
